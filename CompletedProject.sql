@@ -1,3 +1,12 @@
+/*
+Housing Data Cleaning
+
+Skills used: Self Joins, CTE's, Windows Functions, Creating Tables, Altering Tables, Updating Tables, Converting Data Types
+
+*/
+
+
+
 SELECT * 
 FROM data_cleaning_project_housing.dbo.housing;
 
@@ -132,3 +141,4 @@ WHERE dup > 1;
 
 ALTER TABLE data_cleaning_project_housing.dbo.cleanedTable
 DROP COLUMN PropertyAddress,OwnerAddress;
+
